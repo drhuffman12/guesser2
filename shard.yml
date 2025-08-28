@@ -1,0 +1,33 @@
+name: guesser
+version: 0.1.0
+
+crystal: '>= 1.16.2'
+
+authors:
+  - drhuffman12 <drhuffman12@gmail.com>
+
+description: |
+  Number guesser
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+
+  spectator:
+    gitlab: arctic-fox/spectator
+
+  versioner:
+    gitlab: drhuffman12/versioner
+
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+# license: MIT
+
