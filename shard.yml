@@ -1,5 +1,5 @@
 name: guesser
-version: 0.1.0
+version: 0.1.1
 
 crystal: '>= 1.16.2'
 
@@ -21,13 +21,16 @@ dependencies:
   spectator:
     gitlab: arctic-fox/spectator
 
-  versioner:
-    gitlab: drhuffman12/versioner
+  # versioner:
+  #   gitlab: drhuffman12/versioner
 
+  ai4cr2:
+    github: drhuffman12/ai4cr2
 
 # development_dependencies:
 #   webmock:
 #     github: manastech/webmock.cr
 
 # license: MIT
+
 
